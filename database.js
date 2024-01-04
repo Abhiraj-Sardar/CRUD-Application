@@ -13,7 +13,7 @@ const Schema= new mongoose.Schema({
     password:String
 })
 
-const Usermodel = mongoose.model("User",Schema);
+const Usermodel = mongoose.model("User",Schema); //here User is the Table or Collection name
 
 module.exports =Usermodel;
 
